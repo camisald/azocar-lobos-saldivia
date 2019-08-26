@@ -18,7 +18,7 @@ var trabajos = [{
   about: "Construido con mdf cortado con láser e impresión 3D con filamento ABS",
   url: "https://flic.kr/s/aHsmGsXPEQ",
   autor:"Hip, Saldivia",
-  contexto: "Diseno y Manufactura Digital Cad/Cam"
+  contexto: "Diseño y Manufactura Digital Cad/Cam"
 }, {
   /*2019*/
   figure: "media/trabajo-04-plisa.png",

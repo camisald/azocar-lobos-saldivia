@@ -4,7 +4,9 @@ Entrega de portafolio de las estudiantes **C**amila Azócar, **C**amila Saldivia
 
 En la cabecera de la página existe un video autoplay loop representando actividades cotidianas de cada una de las integrantes del equipo. Está intervenido con gráficas sencillas y coloridas de aspecto jovial, identidad a la que se llegó a través de la comprensión e integración de nuestros gustos personales. 
 
-Los elementos de la página están distribuidos en 3 columnas dejando bastante aire entre ellos, por un lado para no cansar la vista del lector, y por el otro por la cualidad estética que es del gusto de las tres.
+El portafolio presenta gráficas de abstracciones geométricas tanto en el video e imágenes de los proyectos como en la ilustración de los rostros de las tres diseñadoras.
+
+Los elementos de la página están distribuidos en tres columnas dejando bastante aire entre ellas, por un lado, para no cansar la vista del lector, y por el otro por la cualidad estética que es del gusto de las tres.
 
 Como información adicional, se incluyeron los nombres de todos los participantes de cada trabajo, proyecto y/o producto, el año de realización y el curso desde el cual se desarrollaron.
 

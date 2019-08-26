@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-/* 
+
+
+/*
 
 Así se escriben los comentario en CSS.
 Siempre se abren con slash asterisco, y
@@ -15,28 +18,31 @@ se cierran con asterisco slash.
 }
 
 body{
-    font-family:'DM Sans', sans-serif;
-    font-weight:400;
-    color:#373737;
-    background-color:#FFFFFF; /*el primer par es R, segundo es G y tercero es B*/
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    color:rgba(255,255,255,.7) /*#373737*/;
+    background-color:#FFADAB; /*el primer par es R, segundo es G y tercero es B*/
+    background:linear-gradient(to bottom, #FFADAB, #ffffff);
 }
 
-h1, h2{
-    font-family:'Space Mono', monospace;
+h1, h2, {
+    font-family:'Rubik', monospace;
     color:#FFFFFF; /* lo básico, para evitar problemas */
     color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
     text-align:center;
     letter-spacing:0.1em;
-    font-weight:700;
+
 }
 
 h1{
-    font-size:3rem;
+    font-size:6rem;
+    letter-spacing: 2rem;
+    font-weight: bolder;
 }
 
 h2{
-    font-size:2rem;
-    letter-spacing:0.1em;
+    font-size:1.5rem;
+    letter-spacing:0.5em;
 }
 
 @media screen and (max-width: 768px){
@@ -54,17 +60,18 @@ h3{
 }
 
 h5, h6{
-    font-weight:700;     
+    font-weight:700;
 }
 
 a{
-    color:rgb(155,0,0);
+    color:rgb(255,255,255);
     text-decoration:none;
 }
 
 a:hover{
-    color:rgb(255,0,0);
+    color:rgba(255,255,255,0.6);
     text-decoration:underline;
+/*color del ver mas*/
 }
 
 header{
@@ -80,8 +87,7 @@ header{
 }
 
 video{
-    width:98%;
-    padding:1% 1% .75% 1%;
+    width:100%;
     height:auto;
 }
 
@@ -89,9 +95,9 @@ main{
     width:100%;
 }
 
-/* 
-Puedes revisar detalles sobre el siguiente uso de flex 
-en https://www.taniarascia.com/easiest-flex-grid-ever/ 
+/*
+Puedes revisar detalles sobre el siguiente uso de flex
+en https://www.taniarascia.com/easiest-flex-grid-ever/
 */
 
 #equipo {
@@ -123,34 +129,41 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante h4{
-    padding: 2rem 2rem 0.25rem 2rem;
+    font:'Rubik';
+    padding: 1rem 0rem 0rem 2rem;
+    font-size:2.5rem;
+    font-weight: 400;
+    /*nuestros nombres*/
 }
 
 .integrante address{
     padding: 0.25rem 2rem;
     font-size:0.9em;
-    font-style:normal;
+    font-style: oblique;
+    font-weight: lighter;
 }
 
 .integrante blockquote{
     padding: 6rem 2rem 2rem 2rem;
-}
+    font-size:0.9rem;
+    font-style: italic;
+    font-family: Montserrat;
+    font-weight: 300;
+/*tamaño y estilo de la frase del diseñador*/
 
-@media screen and (orientation: landscape){
-    .integrante blockquote{
-        padding: 6rem 2rem 2rem 2rem;
-        max-width:50%;
-    }
 }
-
+.highlight {
+    background-color: #FFADAB;
+    background-image: linear-gradient(to right, #FFADAB 0%, #FFADAB 100%);
+}
 .integrante blockquote cite {
     display:block;
     font-style: normal;
     font-weight: 700;
-    font-size:.8rem;
+    font-size:0.7rem;
     letter-spacing : 0.1rem;
     padding-top:0.25rem;
-    color:rgba(255,255,255,.75);
+    color:rgb(255,255,255);
 }
 
 .integrante blockquote cite:before {
@@ -158,16 +171,15 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#F83277;
+    background-color:#FFADAB;
     background-image:url('media/integrante-1a.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
-
 .integrante:nth-of-type(2){
-    background:#F93332;
+    background:#FFADAB;
     background-image:url('media/integrante-2a.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -175,7 +187,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(3){
-    background:#FA7633;
+    background:#FFADAB;
     background-image:url('media/integrante-3a.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -183,7 +195,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1):hover{
-    background-color:#c2185b;
+    background-color:#FFADAB;
     background-image:url('media/integrante-1b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -191,7 +203,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(2):hover{
-    background:#d32f2f;
+    background:#FFADAB;
     background-image:url('media/integrante-2b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -199,7 +211,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(3):hover{
-    background:#ef6c00;
+    background:#FFADAB;
     background-image:url('media/integrante-3b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -215,15 +227,17 @@ AHORA VAMOS POR PORTAFOLIO
 #portafolio{
     width:100%;
     padding:.25% 0;
-    background:linear-gradient(to bottom, #EEEEEE, #AAAAAA);
+    background-image: linear-gradient(rgb(255,173,171), rgba(202,140,139, 0.4)),
+                  url("media/graficas-para-fondo.png");
 }
 
 .item {
     width:23%;
-    margin:1%;
-    color:#333;
-    background:#eee;
+    margin:5%;
+    color:#ffffff;
+    background:rgba(4,49,224,0.8);
     box-shadow:0 0 5px rgba(0,0,0,.5);
+    /*color de los cuadros de las descripciones*/
 }
 
 @media screen and (max-width: 768px){
@@ -238,13 +252,14 @@ AHORA VAMOS POR PORTAFOLIO
      .item{
          width:96%;
          margin:2%;
-         background:#000;
+         background:#353535;
          color:#FFF;
     }
 }
  .item:hover{
      cursor:crosshair;
 }
+
  .item figure{
      overflow:hidden;
 }
@@ -255,27 +270,34 @@ AHORA VAMOS POR PORTAFOLIO
      filter: grayscale(1);
 }
  .item:hover figure img{
-     transform:scale(2);
+     transform:scale(1.2);
      filter: grayscale(0);
-     transition:all ease-out 1s;
+     transition:all ease-out 0.5s;
 }
  .item h4{
+     color:rgba(227,154,152,0.9);
      font-size:1em;
      letter-spacing:0.025em;
      margin:5% 5% 3% 5%;
+     /*color de los titulos de los trabajos*/
 }
  .item p{
      font-size:0.875em;
      letter-spacing:0.05em;
      margin:2% 5% 6% 5%;
+     font-weight: lighter;
+     font: 'Rubik'
+
 }
  footer{
      width:100%;
      padding:2.5em 0 2em 0;
      text-align:center;
+     color: #74C7C2;
 }
  footer p{
      text-transform:uppercase;
      letter-spacing:0.1em;
      font-size:0.9em;
+     color: #74C7C2;
 }

@@ -6,5 +6,7 @@ En la cabecera de la página existe un video autoplay loop representando activid
 
 Los elementos de la página están distribuidos en 3 columnas dejando bastante aire entre ellos, por un lado para no cansar la vista del lector, y por el otro por la cualidad estética que es del gusto de las tres.
 
+Como información adicional, se incluyeron los nombres de todos los participantes de cada trabajo, proyecto y/o producto, el año de realización y el curso desde el cual se desarrollaron.
+
 
 

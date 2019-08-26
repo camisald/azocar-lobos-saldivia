@@ -25,13 +25,12 @@ body{
     background:linear-gradient(to bottom, #FFADAB, #ffffff);
 }
 
-h1, h2, {
+h1, h2,{
     font-family:'Rubik', monospace;
     color:#FFFFFF; /* lo básico, para evitar problemas */
     color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
     text-align:center;
     letter-spacing:0.1em;
-
 }
 
 h1{
@@ -286,7 +285,6 @@ AHORA VAMOS POR PORTAFOLIO
      letter-spacing:0.05em;
      margin:2% 5% 6% 5%;
      font-weight: lighter;
-     font: 'Rubik'
 
 }
  footer{
